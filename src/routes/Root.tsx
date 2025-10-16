@@ -193,9 +193,9 @@ export default function Root() {
                 </div>
               </div>
               <div className="timeline-start md:text-end md:pr-6 mb-10">
-                <div className="font-mono opacity-70">{todayStr}</div>
+                <div className="font-mono opacity-70">28.9.2025</div>
                 <div className="text-lg font-semibold">Teraz</div>
-                <p>Aplikácia je vo vývoji. Pripravujeme odmeny za chyby (5 € za nájdený bug) a chystáme prvú betu.</p>
+                <p>Pripravujeme prvú betu a pracujeme na nových funkciách.</p>
               </div>
               <hr />
             </li>
@@ -209,7 +209,7 @@ export default function Root() {
               <div className="timeline-end md:ml-6 mb-10">
                 <div className="font-mono opacity-70">15.10.2025 – 1.11.2025</div>
                 <div className="text-lg font-semibold">Prvá beta (uzavretá)</div>
-                <p>Uzavretý beta program pre prihlásených používateľov. Zbierame a vyhodnocujeme spätnú väzbu.</p>
+                <p>Otvorili sme zavretú betu a aktívne testujeme aplikaciu na jej zlepšenie</p>
               </div>
               <hr />
             </li>

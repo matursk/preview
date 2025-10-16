@@ -3,7 +3,9 @@ export interface Env {
   MAILCHANNELS_API_KEY: string;
 }
 
-export const onRequestPost: PagesFunction<Env> = async (context) => {
+export const onRequestPost = async (
+  context: { request: Request; env: Env }
+) => {
   try {
     const body = await context.request.json();
     const token = body?.token as string | undefined;
@@ -26,7 +28,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       method: "POST",
       body: form,
     });
-    const verifyData = await verifyRes.json<any>();
+    const verifyData = (await verifyRes.json()) as any;
     const ok = verifyData?.success === true;
     if (!ok) {
       return new Response(JSON.stringify({ success: false, error: "turnstile" }), { status: 403, headers: { "content-type": "application/json; charset=utf-8" } });
