@@ -188,28 +188,28 @@ export default function Root() {
             <li>
               <hr />
               <div className="timeline-middle">
-                <div className="relative w-12 h-12 rounded-full ring-4 ring-blue-300 bg-blue-200/40 flex items-center justify-center">
-                  <div className="w-8 h-8 rotate-45 rounded-lg bg-blue-400"></div>
+                <div className="relative w-12 h-12 rounded-full ring-4 ring-blue-800 bg-blue-700/10 flex items-center justify-center">
+                  <div className="w-7 h-7 rounded-[40%] bg-blue-600"></div>
                 </div>
               </div>
               <div className="timeline-start md:text-end md:pr-6 mb-10">
                 <div className="font-mono opacity-70">28.9.2025</div>
-                <div className="text-lg font-semibold">Teraz</div>
-                <p>Pripravujeme prvú betu a pracujeme na nových funkciách.</p>
+                <div className="text-lg font-semibold">Príprava uzavretej bety</div>
+                <p>Príprava uzavretej bety a dokončenie kľúčových funkcií.</p>
               </div>
               <hr />
             </li>
             <li>
               <hr />
               <div className="timeline-middle">
-                <div className="relative w-12 h-12 rounded-full ring-4 ring-gray-300 bg-gray-50 flex items-center justify-center">
-                  <div className="w-9 h-9 rounded-full overflow-hidden" style={{backgroundImage: "repeating-linear-gradient(45deg, #d1d5db 0, #d1d5db 4px, #f3f4f6 4px, #f3f4f6 8px)"}}></div>
+                <div className="relative w-12 h-12 rounded-full ring-4 ring-blue-300 bg-blue-200/40 flex items-center justify-center">
+                  <div className="w-8 h-8 rotate-45 rounded-lg bg-blue-400"></div>
                 </div>
               </div>
               <div className="timeline-end md:ml-6 mb-10">
-                <div className="font-mono opacity-70">15.10.2025 – 1.11.2025</div>
-                <div className="text-lg font-semibold">Prvá beta (uzavretá)</div>
-                <p>Otvorili sme zavretú betu a aktívne testujeme aplikaciu na jej zlepšenie</p>
+                <div className="font-mono opacity-70">{todayStr}</div>
+                <div className="text-lg font-semibold">Teraz - Prvá beta (uzavretá)</div>
+                <p>Uzavretá beta je spustená – aktívne testujeme a zbierame spätnú väzbu.</p>
               </div>
               <hr />
             </li>
