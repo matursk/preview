@@ -40,9 +40,9 @@ export default function Root() {
               Stiahni Android preview a vyskúšaj si učenie na maturity už dnes.
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 flex-wrap">
-              <a href="https://release.matur.sk/matur-preview.apk" className="btn btn-primary">Stiahnuť preview (APK)</a>
+              <a href="https://release.matur.sk/matur-preview-0.5.2.apk" className="btn btn-primary">Stiahnuť preview (APK)</a>
               <div className="hidden sm:block">
-                <QRForAndroid url={"https://release.matur.sk/matur-preview.apk"} />
+                <QRForAndroid url={"https://release.matur.sk/matur-preview-0.5.2.apk"} />
               </div>
             </div>
             <div className="mt-6 flex items-center gap-4 flex-wrap">
