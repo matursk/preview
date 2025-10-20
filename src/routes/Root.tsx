@@ -265,6 +265,7 @@ export default function Root() {
           <div>© {new Date().getFullYear()} Matur</div>
           <div className="flex gap-4">
             <a className="link" href="mailto:podpora@matur.sk">Kontakt: podpora@matur.sk</a>
+            <a className="link" href="/cookie-policy">Cookies</a>
           </div>
         </div>
       </footer>
